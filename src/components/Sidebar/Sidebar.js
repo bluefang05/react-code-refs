@@ -12,11 +12,9 @@ function Sidebar() {
     <nav class="main-nav" role="navigation">
         
       <ul class="unstyled list-hover-slide">
-        <li><Link to="conditional-render-1">example1</Link>
+        <li>
+          <Link to="conditional-render-1">example1</Link>
         </li>
-        <li><a href="#">Work</a></li>
-        <li><a href="#">Contact</a></li>
-        <li><a href="#">Blog</a></li>
       </ul>
     </nav>
   </div>
