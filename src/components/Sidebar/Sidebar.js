@@ -8,7 +8,7 @@ function Sidebar() {
         <header class="header" role="banner">
 
   <div class="nav-wrap">
-  <img id="menu-logo" src={logo}/>
+  <img id="menu-logo" alt="logo"  src={logo}/>
     <nav class="main-nav" role="navigation">
         
       <ul class="unstyled list-hover-slide">
