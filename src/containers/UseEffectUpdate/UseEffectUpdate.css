@@ -1,0 +1,18 @@
+#ballContainer{
+    border : solid;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.ball{
+    width: 25px;
+    height: 25px;
+    border: solid;
+    border-radius: 45px;
+    margin : 5px;
+}
