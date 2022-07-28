@@ -25,7 +25,7 @@ function ConditionalRender() {
     callback={code => console.log(code)}
     editer={true}
     language="javascript"
-    style="monokai"
+    // style="monokai"
     showLineNumbers={true}
 />
 
