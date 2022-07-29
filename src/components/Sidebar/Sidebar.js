@@ -5,17 +5,23 @@ import logo from '../../images/logo.png';
 function Sidebar() {
   return (
     <div className="sidebar">
-        <header class="header" role="banner">
+        <header className="header" role="banner">
 
-  <div class="nav-wrap">
+  <div className="nav-wrap">
   <Link to="/">
   <img id="menu-logo" alt="logo"  src={logo}/>
   </Link>
-    <nav class="main-nav" role="navigation">
-        
-      <ul class="unstyled list-hover-slide">
+    <nav className="main-nav" role="navigation">
+      <h5>Conditionals</h5>    
+      <ul className="unstyled list-hover-slide">
         <li>
-          <Link to="conditional-render-1">example1</Link>
+          <Link to="conditional-render-1">Conditional render 1</Link>
+        </li>
+        <li>
+          <Link to="conditional-disable-1">Conditional disable 1</Link>
+        </li>
+        <li>
+          <Link to="conditional-disable-1-2">Conditional disable 1-2</Link>
         </li>
       </ul>
     </nav>

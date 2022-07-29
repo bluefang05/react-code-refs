@@ -14,6 +14,12 @@
     color: #61DBFB;
 }
 
+.sidebar h5{
+    font-size: 16px;
+    color: #c1f3ff;
+}
+
+
 .nav-wrap{
     display: flex;
     flex-direction: column;
