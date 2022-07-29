@@ -39,10 +39,10 @@ function ConditionalDisable1_2() {
             id="psw"
           />
 
-          <button disabled={username == "" || password == ""}  type="submit">
+          <button disabled={username === "" || password === ""}  type="submit">
             Login
           </button>
-          {username == "" || password == ""? <h1 id="disabled-label">Button is Disabled</h1> : ""}
+          {username === "" || password === ""? <h1 id="disabled-label">Button is Disabled</h1> : ""}
         </div>
       </form>
       <CodeBlock
