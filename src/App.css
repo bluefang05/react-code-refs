@@ -20,6 +20,8 @@ body{
 .content-wrapper{
   width: 70%;
   padding-top: 50px;
+  overflow: scroll;
+  max-height: 100vh;
 }
 
 .precodebox{

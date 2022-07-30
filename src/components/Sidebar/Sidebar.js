@@ -12,8 +12,9 @@ function Sidebar() {
   <img id="menu-logo" alt="logo"  src={logo}/>
   </Link>
     <nav className="main-nav" role="navigation">
-      <h5>Conditionals</h5>    
+       
       <ul className="unstyled list-hover-slide">
+      <h5>Conditionals</h5>   
         <li>
           <Link to="conditional-render-1">Conditional render 1</Link>
         </li>
@@ -23,6 +24,7 @@ function Sidebar() {
         <li>
           <Link to="conditional-disable-1-2">Conditional disable 1-2</Link>
         </li>
+          <Link to="api-request-1">Api Request 1</Link>
       </ul>
     </nav>
   </div>
