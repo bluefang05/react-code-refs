@@ -1,4 +1,4 @@
-import React {useState} from 'react';
+import React, { useState } from "react";
 import './PokeApiCard.css'
 import left from './left.png';
 import right from './right.png';
