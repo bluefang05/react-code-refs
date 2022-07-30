@@ -3,8 +3,8 @@ import './PokeApiCard.css'
 import left from './left.png';
 import right from './right.png';
 function PokeApiCard() {
-const [searchTerm, setSearcTerm] = useState(1);
-const [searchNumber, setSearchNumber] = 
+const [searchTerm, setSearcTerm] = useState("");
+const [searchNumber, setSearchNumber] = useState(1);
   return (
     <div>
         {/* api timer de medio segundo para cambiar el pokemon */}
