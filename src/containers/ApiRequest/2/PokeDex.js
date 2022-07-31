@@ -115,7 +115,10 @@ function PokeDex() {
   }
 
   useEffect(() => {
-    getPokemonData(searchNumber);
+    superagent.get("https://pokeapi.co/api/v2/pokemon/1").end((err, res) => {
+      setPokemonData(res.body);
+      setSearchNumber(res.body.id);
+    });
   }, []);
 
   return (
