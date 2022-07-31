@@ -4,7 +4,7 @@ import ConditionalRender1 from '../containers/Conditional/1/ConditionalRender';
 import ConditionalDisable1 from '../containers/Conditional/2/ConditionalDisable1';
 import CONDITIONAL_DISABLE_1_2 from '../containers/Conditional/2-2/ConditionalDisable1_2';
 import NumbersApi from '../containers/ApiRequest/1/numbersApi';
-import PokeApi from '../containers/ApiRequest/2/PokeApiCard';
+import PokeApi from '../containers/ApiRequest/2/PokeDex';
 
 function Routes() {
   return (
