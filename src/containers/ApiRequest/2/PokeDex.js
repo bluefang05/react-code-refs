@@ -13,7 +13,7 @@ function PokeDex() {
       .get("https://pokeapi.co/api/v2/pokemon/" + id)
       .end((err, res) => {
         console.log(res);
-        if (res.text !== "Not Found") {
+        if (res.text !== "Not Found" && id !== "") {
           setPokemonData(res.body);
           setSearchNumber(res.body.id);
           console.log(pokemonData, res.body.sprites.front_default);
@@ -22,7 +22,10 @@ function PokeDex() {
   }
 
   useEffect(() => {
-    getPokemonData(searchNumber);
+    superagent.get("https://pokeapi.co/api/v2/pokemon/1").end((err, res) => {
+      setPokemonData(res.body);
+      setSearchNumber(res.body.id);
+    });
   }, []);
 
   return (
@@ -62,7 +65,7 @@ function PokeDex() {
           />
         </div>
         <div className="searchInputContainer">
-          <input id="searchPokemon" className="searchInput" />
+          <input value="" id="searchPokemon" className="searchInput" />
           <button
             onClick={() => {
               getPokemonData(document.getElementById("searchPokemon").value);
@@ -87,8 +90,7 @@ function PokeDex() {
 
 export default PokeDex;
 
-let code = 
-`import React, { useEffect, useState } from "react";
+let code = `import React, { useEffect, useState } from "react";
 import superagent from "superagent";
 import "./PokeDex.css";
 import left from "./left.png";
@@ -103,7 +105,7 @@ function PokeDex() {
       .get("https://pokeapi.co/api/v2/pokemon/" + id)
       .end((err, res) => {
           console.log(res)
-        if(res.text !== "Not Found"){
+        if(res.text !== "Not Found" && id !== ""){
             setPokemonData(res.body);
             setSearchNumber(res.body.id);
             console.log(pokemonData, res.body.sprites.front_default) 
