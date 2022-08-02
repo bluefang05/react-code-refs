@@ -65,7 +65,7 @@ function PokeDex() {
           />
         </div>
         <div className="searchInputContainer">
-          <input value="" id="searchPokemon" className="searchInput" />
+          <input  id="searchPokemon" className="searchInput" />
           <button
             onClick={() => {
               getPokemonData(document.getElementById("searchPokemon").value);

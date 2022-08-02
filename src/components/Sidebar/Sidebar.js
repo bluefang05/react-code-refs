@@ -24,7 +24,7 @@ function Sidebar() {
                   Conditional disable 1-2
                 </Link>
               </li>
-              <h5>Conditionals</h5>
+              <h5>Api Request</h5>
               <li>
                 <Link to="api-request-1">Api Request 1</Link>
               </li>
