@@ -18,9 +18,9 @@ body{
 }
 
 .content-wrapper{
-  width: 70%;
-  padding-top: 50px;
-  overflow: scroll;
+  width: 80%;
+  padding: 25px;
+  overflow-y: scroll;
   max-height: 100vh;
 }
 

@@ -1,0 +1,30 @@
+.PokeCard{
+    width: 120px;
+    height: 250px;
+    border: solid 5px #054468;
+    border-radius: 15px;
+    text-align: center;
+    margin:20px;
+    font-size: 12px;
+}
+
+.cardPortraitContainer{
+    width: CardPortrait;
+    height: 96px;
+    background: #054468;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pokemonCardNumber{
+    color: #054468;
+    top: 0;
+    left: 0;
+}
+
+.removeCardButton{
+    width: 5px;
+    height: 5px;
+    text-align: center;
+}

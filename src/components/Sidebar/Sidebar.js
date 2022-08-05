@@ -31,6 +31,9 @@ function Sidebar() {
               <li>
                 <Link to="api-request-2">Api Request 2</Link>
               </li>
+              <li>
+                <Link to="api-request-3">Api Request 3</Link>
+              </li>
             </ul>
           </nav>
         </div>
