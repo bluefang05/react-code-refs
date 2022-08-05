@@ -12,7 +12,7 @@ function Routes() {
     <RouteList>
         <Route path="/conditional-render-1" element={<ConditionalRender1/>} />
         <Route path="/conditional-disable-1" element={<ConditionalDisable1/>} />
-        <Route path="/conditional-disable-1-2"element element={<CONDITIONAL_DISABLE_1_2/>} />
+        <Route path="/conditional-disable-1-2" element={<CONDITIONAL_DISABLE_1_2/>} />
         <Route path="/api-request-1" element={<NumbersApi/>} />
         <Route path="/api-request-2" element={<PokeApi/>} />
         <Route path="/api-request-3" element={<PokeApi2/>} />
