@@ -13,7 +13,6 @@ function PokeDex() {
   if(localStorage.getItem('pokeArr')){
     localStorage.setItem('pokeArr', [])}
 
-  let arr = localStorage.getItem('pokeArr')? localStorage.getItem('pokeArr') : [] ;
 
 
   function addPokeCard(){
